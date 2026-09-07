@@ -523,3 +523,26 @@ Use '--' to separate paths from revisions, like this:
 [2026-09-07T08:08:03.291Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=10416, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
 [2026-09-07T08:08:03.295Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
 [2026-09-07T08:08:03.313Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 29684)
+[2026-09-07T08:37:17.308Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook started (source: message) ===
+[2026-09-07T08:37:17.312Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=7496, cwd=D:\project\e com, profile=D:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T08:37:17.376Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook finished ===
+[2026-09-07T08:37:17.733Z] INFO  [RepoProfile] [trace=49d918583a4ef63f265ca2b554509fe0] manual-disable read → false (by=manuallyDisabled, pid=20592, cwd=D:\project\e com, profile=D:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T08:37:17.789Z] INFO  [PostCommitHook] [trace=49d918583a4ef63f265ca2b554509fe0] Detected operation: commit
+[2026-09-07T08:37:17.877Z] INFO  [PostCommitHook] [trace=49d918583a4ef63f265ca2b554509fe0] Enqueued: type=commit hash=de16a28d
+[2026-09-07T08:37:17.877Z] INFO  [QueueWorker] [trace=49d918583a4ef63f265ca2b554509fe0] Launching background worker
+[2026-09-07T08:37:17.886Z] INFO  [QueueWorker] [trace=49d918583a4ef63f265ca2b554509fe0] Background worker spawned (PID: 11068)
+[2026-09-07T08:37:17.897Z] INFO  [EnsureGlobalDaemon] [trace=49d918583a4ef63f265ca2b554509fe0] spawned global daemon ensure helper (pid 20808)
+[2026-09-07T08:37:18.064Z] INFO  [RepoProfile] [trace=49d918583a4ef63f265ca2b554509fe0] manual-disable read → false (by=manuallyDisabled, pid=11068, cwd=D:\project\e com, profile=D:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T08:37:18.185Z] INFO  [QueueWorker] [trace=49d918583a4ef63f265ca2b554509fe0] === Queue worker started === node=24.18.0 kind=vscode-plugin source=antigravity-ide pkgVer=0.99.17 cliVer=0.99.17 dist=c:\Users\Jegan . S\.antigravity-ide\extensions\jolli.jollimemory-vscode-0.99.17-universal\dist
+[2026-09-07T08:37:18.371Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T08:37:18.371Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T08:37:18.375Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T08:37:18.376Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T08:37:18.413Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T08:37:19.531Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=10, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T08:37:19.548Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"de16a28d","author":"Jegan S"}
+[2026-09-07T08:40:06.515Z] INFO  [PrePushHook] [trace=68f2870219c9bc9bbf1f5ece98f0ade8] pre-push hook: remote=origin budget=3000ms
+[2026-09-07T08:40:06.520Z] INFO  [RepoProfile] [trace=68f2870219c9bc9bbf1f5ece98f0ade8] manual-disable read → false (by=manuallyDisabled, pid=32160, cwd=D:\project\e com, profile=D:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T08:40:06.568Z] WARN  [PrePushHook] [trace=68f2870219c9bc9bbf1f5ece98f0ade8] git rev-list failed for refs/heads/main: Command failed: git rev-list --reverse d0b61b7e4e063ce51c3146dc7b3814672717ee4d..de16a28db3349bcddd427b7389afcea254e04747 --not --remotes
+fatal: Invalid revision range d0b61b7e4e063ce51c3146dc7b3814672717ee4d..de16a28db3349bcddd427b7389afcea254e04747
+
