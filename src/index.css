@@ -1,0 +1,352 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════════
+   Zen Nova — apothecary / formulary design system
+
+   Type carries a rule that mirrors the brand's claim: prose is set in
+   Instrument Sans, voice in Fraunces, and every *measured fact* —
+   price, percentage, INCI name, order number, stock count — in
+   IBM Plex Mono. Data always looks like data.
+   ═══════════════════════════════════════════════════════════════════ */
+
+@theme {
+  /* Ground: cool graphite and mineral white, never cream. */
+  --color-ink-900: #0C1113;
+  --color-ink-800: #12181A;
+  --color-ink-700: #1B2426;
+  --color-ink-600: #2A3639;
+
+  /* Brand: apothecary glass green. */
+  --color-spruce-900: #0C2A23;
+  --color-spruce-800: #123A31;
+  --color-spruce-700: #1A5244;
+  --color-spruce-600: #2F7A63;
+  --color-spruce-100: #E4EFEA;
+  --color-spruce-50:  #F1F7F4;
+
+  /* Signal: tincture amber, for actives, prices and ratings. */
+  --color-amber-700: #9A6716;
+  --color-amber-600: #C98A26;
+  --color-amber-500: #E0A63F;
+  --color-amber-100: #FBF1DE;
+
+  /* Neutrals. */
+  --color-paper: #FFFFFF;
+  --color-mist-100: #F8FAF9;
+  --color-mist-200: #F1F4F3;
+  --color-mist-300: #E7ECEA;
+  --color-rule: #DCE3E0;
+  --color-rule-dark: #2C3A3C;
+  --color-slate-700: #34403E;
+  --color-slate-600: #5A6763;
+  --color-slate-400: #8C9994;
+
+  /* Status. */
+  --color-flag-600: #B3402A;
+  --color-flag-100: #FBEDE9;
+
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── Base ─────────────────────────────────────────────────────────── */
+:root {
+  color-scheme: light;
+  --shell-x: clamp(1rem, 4vw, 3.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  /* 15px base: the old 11–12px type was unreadable for a health brand. */
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  background-color: var(--color-mist-200);
+  color: var(--color-ink-800);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-spruce-800);
+  color: var(--color-amber-500);
+}
+
+/* Fraunces is variable — dial in optical size and the soft/wonk axes so
+   headlines read botanical rather than fashion-magazine. */
+.font-display {
+  font-variation-settings: "SOFT" 28, "WONK" 1;
+  letter-spacing: -0.018em;
+}
+
+/* ── Utilities ────────────────────────────────────────────────────── */
+.shell {
+  width: 100%;
+  max-width: 84rem;
+  margin-inline: auto;
+  padding-inline: var(--shell-x);
+}
+
+/* The eyebrow used across every section: a mono label with a rule that
+   runs to the edge of its column. */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.eyebrow::before {
+  content: "";
+  width: 1.75rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.5;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+
+.line-clamp-1, .line-clamp-2, .line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-1 { -webkit-line-clamp: 1; }
+.line-clamp-2 { -webkit-line-clamp: 2; }
+.line-clamp-3 { -webkit-line-clamp: 3; }
+
+/* Reserve the box before the image lands, so nothing reflows on load. */
+.media {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(120deg, var(--color-mist-200), var(--color-mist-300));
+}
+.media > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Focus (WCAG 2.1 AA) ──────────────────────────────────────────── */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-amber-600);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 100;
+  background: var(--color-ink-800);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  transition: top 0.18s var(--ease-out-quint);
+}
+.skip-link:focus { top: 1rem; }
+
+/* ── Elevation ────────────────────────────────────────────────────── */
+.shadow-card {
+  box-shadow: 0 1px 2px rgba(18, 24, 26, 0.04), 0 8px 24px -12px rgba(18, 24, 26, 0.12);
+}
+.shadow-lift {
+  box-shadow: 0 2px 4px rgba(18, 24, 26, 0.05), 0 20px 44px -20px rgba(18, 24, 26, 0.24);
+}
+
+/* ── Motion ───────────────────────────────────────────────────────── */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes draw-rule {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+@keyframes slide-in-right {
+  from { transform: translateX(100%); }
+  to   { transform: none; }
+}
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes shimmer {
+  to { background-position: 200% 0; }
+}
+
+/* Page-load sequence. `--i` staggers siblings. */
+.animate-rise      { animation: rise 0.62s var(--ease-out-quint) both; animation-delay: calc(var(--i, 0) * 70ms); }
+.animate-fade      { animation: fade 0.5s ease both; animation-delay: calc(var(--i, 0) * 70ms); }
+.animate-slide-in  { animation: slide-in-right 0.34s var(--ease-out-quint) both; }
+.animate-toast     { animation: toast-in 0.32s var(--ease-out-quint) both; }
+.animate-rule      { transform-origin: left; animation: draw-rule 0.8s var(--ease-out-quint) both; }
+
+/* Scroll-triggered reveal, driven by one IntersectionObserver hook. */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 0.7s var(--ease-out-quint),
+    transform 0.7s var(--ease-out-quint);
+  transition-delay: calc(var(--i, 0) * 60ms);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--color-mist-200) 25%, var(--color-mist-300) 37%, var(--color-mist-200) 63%);
+  background-size: 200% 100%;
+  animation: shimmer 1.3s linear infinite;
+}
+
+/* ── Reduced motion ───────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}
+
+/* ── Form controls ────────────────────────────────────────────────── */
+.field {
+  width: 100%;
+  padding: 0.6875rem 0.875rem;
+  font-size: 0.875rem;
+  font-family: inherit;
+  color: var(--color-ink-800);
+  background: var(--color-paper);
+  border: 1px solid var(--color-rule);
+  border-radius: 0.5rem;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease;
+}
+.field::placeholder { color: var(--color-slate-400); }
+.field:hover:not(:disabled) { border-color: var(--color-slate-400); }
+.field:focus {
+  outline: none;
+  border-color: var(--color-spruce-600);
+  box-shadow: 0 0 0 3px var(--color-spruce-100);
+}
+.field:disabled { background: var(--color-mist-200); color: var(--color-slate-400); }
+.field[aria-invalid="true"] {
+  border-color: var(--color-flag-600);
+  box-shadow: 0 0 0 3px var(--color-flag-100);
+}
+
+.field-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-slate-600);
+  margin-bottom: 0.4375rem;
+}
+
+/* ── Buttons ──────────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.8125rem 1.375rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s var(--ease-out-quint);
+}
+.btn:active:not(:disabled) { transform: translateY(1px); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary { background: var(--color-spruce-800); color: #fff; }
+.btn-primary:hover:not(:disabled) { background: var(--color-spruce-700); }
+
+.btn-accent { background: var(--color-amber-600); color: var(--color-ink-900); }
+.btn-accent:hover:not(:disabled) { background: var(--color-amber-500); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-ink-800);
+  border-color: var(--color-rule);
+}
+.btn-ghost:hover:not(:disabled) {
+  background: var(--color-mist-200);
+  border-color: var(--color-slate-400);
+}
+
+.btn-on-dark {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.28);
+}
+.btn-on-dark:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-sm { padding: 0.5625rem 0.9375rem; font-size: 0.8125rem; }
+
+/* ── Cards ────────────────────────────────────────────────────────── */
+.card {
+  background: var(--color-paper);
+  border: 1px solid var(--color-rule);
+  border-radius: 0.875rem;
+}
+
+/* Product tiles lift on hover; the whole tile is the affordance. */
+.tile {
+  transition:
+    transform 0.32s var(--ease-out-quint),
+    box-shadow 0.32s var(--ease-out-quint),
+    border-color 0.32s ease;
+}
+@media (hover: hover) {
+  .tile:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-spruce-600);
+  }
+  .tile:hover .tile-media img { transform: scale(1.055); }
+}
+.tile-media img { transition: transform 0.7s var(--ease-out-quint); }
+
+details summary::-webkit-details-marker { display: none; }
+details summary { list-style: none; cursor: pointer; }

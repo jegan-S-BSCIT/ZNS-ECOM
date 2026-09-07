@@ -1,0 +1,29 @@
+{
+	"version": 1,
+	"sessions": {
+		"f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1": {
+			"sessionId": "f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1",
+			"transcriptPath": "C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1.jsonl",
+			"updatedAt": "2026-09-07T04:09:58.624Z",
+			"source": "claude"
+		},
+		"e37dbf28-d765-46ef-a5dc-e13a9740c24c": {
+			"sessionId": "e37dbf28-d765-46ef-a5dc-e13a9740c24c",
+			"transcriptPath": "C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl",
+			"updatedAt": "2026-09-07T05:00:00.366Z",
+			"source": "claude"
+		},
+		"9a3ebe43-d66f-4060-8469-08d387915755": {
+			"sessionId": "9a3ebe43-d66f-4060-8469-08d387915755",
+			"transcriptPath": "C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\9a3ebe43-d66f-4060-8469-08d387915755.jsonl",
+			"updatedAt": "2026-09-07T07:55:13.264Z",
+			"source": "claude"
+		},
+		"5d234b20-15a5-4ae8-92b6-2f8e9ed37868": {
+			"sessionId": "5d234b20-15a5-4ae8-92b6-2f8e9ed37868",
+			"transcriptPath": "C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\5d234b20-15a5-4ae8-92b6-2f8e9ed37868.jsonl",
+			"updatedAt": "2026-09-07T05:46:41.712Z",
+			"source": "claude"
+		}
+	}
+}

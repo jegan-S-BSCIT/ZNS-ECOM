@@ -1,0 +1,113 @@
+{
+	"version": 1,
+	"plans": {},
+	"skills": {
+		"claude:frontend-design": {
+			"source": "claude",
+			"skill": "frontend-design",
+			"entryPaths": [
+				"tool"
+			],
+			"invocations": [
+				{
+					"at": "2026-09-06T16:54:54.141Z",
+					"bodyChars": 8091,
+					"ok": true,
+					"outcomeObserved": true,
+					"entryPath": "tool"
+				}
+			],
+			"invocationCount": 1,
+			"firstUsedAt": "2026-09-06T16:54:54.141Z",
+			"lastUsedAt": "2026-09-06T16:54:54.141Z",
+			"usage": {
+				"input": 2,
+				"cached": 3659,
+				"output": 4208,
+				"confidence": "attributed"
+			},
+			"usageBySession": {
+				"claude:f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1": {
+					"input": 2,
+					"cached": 3659,
+					"output": 4208,
+					"confidence": "attributed"
+				}
+			},
+			"sourcePath": "d:\\project\\e com\\.jolli\\jollimemory\\skills\\claude\\frontend-design-7429eb2e.md",
+			"commitHash": null
+		},
+		"claude:supabase:supabase-postgres-best-practices": {
+			"source": "claude",
+			"skill": "supabase:supabase-postgres-best-practices",
+			"plugin": "supabase",
+			"entryPaths": [
+				"tool"
+			],
+			"invocations": [
+				{
+					"at": "2026-09-06T16:56:00.653Z",
+					"bodyChars": 1971,
+					"ok": true,
+					"outcomeObserved": true,
+					"entryPath": "tool"
+				}
+			],
+			"invocationCount": 1,
+			"firstUsedAt": "2026-09-06T16:56:00.653Z",
+			"lastUsedAt": "2026-09-06T16:56:00.653Z",
+			"usage": {
+				"input": 74,
+				"cached": 89525,
+				"output": 62836,
+				"confidence": "attributed"
+			},
+			"usageBySession": {
+				"claude:f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1": {
+					"input": 74,
+					"cached": 89525,
+					"output": 62836,
+					"confidence": "attributed"
+				}
+			},
+			"sourcePath": "d:\\project\\e com\\.jolli\\jollimemory\\skills\\claude\\supabase-supabase-postgres-best-practices-ed468b59.md",
+			"commitHash": null
+		},
+		"claude:supabase:supabase": {
+			"source": "claude",
+			"skill": "supabase:supabase",
+			"plugin": "supabase",
+			"entryPaths": [
+				"tool"
+			],
+			"invocations": [
+				{
+					"at": "2026-09-07T04:26:53.378Z",
+					"bodyChars": 12188,
+					"ok": true,
+					"outcomeObserved": true,
+					"entryPath": "tool"
+				}
+			],
+			"invocationCount": 1,
+			"firstUsedAt": "2026-09-07T04:26:53.378Z",
+			"lastUsedAt": "2026-09-07T04:26:53.378Z",
+			"usage": {
+				"input": 20,
+				"cached": 36633,
+				"output": 7975,
+				"confidence": "attributed"
+			},
+			"usageBySession": {
+				"claude:e37dbf28-d765-46ef-a5dc-e13a9740c24c": {
+					"input": 20,
+					"cached": 36633,
+					"output": 7975,
+					"confidence": "attributed"
+				}
+			},
+			"sourcePath": "d:\\project\\e com\\.jolli\\jollimemory\\skills\\claude\\supabase-supabase-9f16ac9f.md",
+			"commitHash": null
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"version": 1,
+	"cursors": {
+		"C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1.jsonl": {
+			"transcriptPath": "C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1.jsonl",
+			"lineNumber": 435,
+			"updatedAt": "2026-09-07T04:09:59.134Z",
+			"extractors": {
+				"skills": 435,
+				"owners": 435
+			}
+		},
+		"C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl": {
+			"transcriptPath": "C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl",
+			"lineNumber": 644,
+			"updatedAt": "2026-09-07T05:00:01.139Z",
+			"extractors": {
+				"skills": 644,
+				"owners": 644
+			}
+		},
+		"C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\9a3ebe43-d66f-4060-8469-08d387915755.jsonl": {
+			"transcriptPath": "C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\9a3ebe43-d66f-4060-8469-08d387915755.jsonl",
+			"lineNumber": 149,
+			"updatedAt": "2026-09-07T07:55:13.604Z",
+			"extractors": {
+				"skills": 149,
+				"owners": 149
+			}
+		},
+		"C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\5d234b20-15a5-4ae8-92b6-2f8e9ed37868.jsonl": {
+			"transcriptPath": "C:\\Users\\Jegan . S\\.claude\\projects\\d--project-e-com\\5d234b20-15a5-4ae8-92b6-2f8e9ed37868.jsonl",
+			"lineNumber": 244,
+			"updatedAt": "2026-09-07T05:46:42.062Z",
+			"extractors": {
+				"skills": 244,
+				"owners": 244
+			}
+		}
+	}
+}

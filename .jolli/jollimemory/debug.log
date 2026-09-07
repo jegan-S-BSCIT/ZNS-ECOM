@@ -1,0 +1,525 @@
+[2026-09-06T19:43:52.730Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-09-06T19:43:52.731Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-06T19:43:53.095Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-09-06T19:43:53.095Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-06T19:43:53.701Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-09-06T19:43:53.701Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-09-06T19:43:54.271Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-09-06T19:43:54.389Z] INFO  [RepoProfile] manual-disable read → false (by=migrate:legacy-marker, pid=22892, cwd=d:\project\e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=undefined fence=none)
+[2026-09-06T19:43:54.390Z] INFO  [bridge] Own dist-paths/antigravity-ide missing, stale, or pointing elsewhere — re-enabling
+[2026-09-06T19:43:54.390Z] INFO  [bridge] enable() called
+[2026-09-06T19:43:54.392Z] INFO  [Installer] Installing Jolli Memory hooks
+[2026-09-06T19:43:54.441Z] INFO  [SessionTracker] Config saved to C:\Users\Jegan . S\.jolli\jollimemory
+[2026-09-06T19:43:54.510Z] INFO  [SessionTracker] Config saved to C:\Users\Jegan . S\.jolli\jollimemory
+[2026-09-06T19:43:54.705Z] INFO  [DispatchScripts] Wrote resolve-dist-path, run-hook, and run-cli scripts to C:\Users\Jegan . S\.jolli\jollimemory
+[2026-09-06T19:43:54.708Z] INFO  [DistPathWriter] Wrote dist-paths/antigravity-ide (version=0.99.17, distDir=c:\Users\Jegan . S\.antigravity-ide\extensions\jolli.jollimemory-vscode-0.99.17-universal\dist)
+[2026-09-06T19:43:54.733Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 3) to D:\project\e com\.agents\skills\jolli-recall\SKILL.md
+[2026-09-06T19:43:54.737Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 3) to D:\project\e com\.agents\skills\jolli-search\SKILL.md
+[2026-09-06T19:43:54.741Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 6) to D:\project\e com\.agents\skills\jolli-local-run\SKILL.md
+[2026-09-06T19:43:54.743Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 5) to D:\project\e com\.agents\skills\jolli-remote-run\SKILL.md
+[2026-09-06T19:43:54.745Z] INFO  [SkillInstaller] Wrote SKILL.md (revision 9) to D:\project\e com\.agents\skills\jolli\SKILL.md
+[2026-09-06T19:43:54.859Z] INFO  [GitExclude] Updated D:\project\e com\.git\info\exclude with 7 Jolli skill exclude paths
+[2026-09-06T19:43:54.862Z] INFO  [McpRegistration] Registered MCP server in D:\project\e com\.mcp.json
+[2026-09-06T19:43:54.869Z] INFO  [JsonMcpWriter] Registered MCP server in C:\Users\Jegan . S\.gemini\settings.json
+[2026-09-06T19:43:54.876Z] INFO  [CodexTomlWriter] Registered Codex MCP server in C:\Users\Jegan . S\.codex\config.toml
+[2026-09-06T19:43:54.879Z] INFO  [JsonMcpWriter] Registered MCP server in C:\Users\Jegan . S\.copilot\mcp-config.json
+[2026-09-06T19:43:54.883Z] INFO  [JsonMcpWriter] Registered MCP server in C:\Users\Jegan . S\AppData\Roaming\Code\User\mcp.json
+[2026-09-06T19:43:54.889Z] INFO  [JsonMcpWriter] Registered MCP server in C:\Users\Jegan . S\.gemini\config\mcp_config.json
+[2026-09-06T19:43:54.892Z] INFO  [GitHookInstaller] Git post-commit hook installed
+[2026-09-06T19:43:54.894Z] INFO  [GitHookInstaller] Git post-rewrite hook installed
+[2026-09-06T19:43:54.898Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-06T19:43:54.899Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-06T19:43:54.899Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-06T19:43:54.899Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-06T19:43:54.899Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-09-06T19:43:54.902Z] INFO  [GitHookInstaller] Git prepare-commit-msg hook installed
+[2026-09-06T19:43:54.927Z] INFO  [GitHookInstaller] Git post-merge hook installed
+[2026-09-06T19:43:54.930Z] INFO  [GitHookInstaller] Git pre-push hook installed
+[2026-09-06T19:43:54.953Z] INFO  [SessionTracker] Config saved to C:\Users\Jegan . S\.jolli\jollimemory
+[2026-09-06T19:43:54.953Z] INFO  [Installer] Codex detected — enabled Codex session discovery
+[2026-09-06T19:43:54.967Z] INFO  [GeminiHookInstaller] Gemini AfterAgent hook installed
+[2026-09-06T19:43:54.972Z] INFO  [SessionTracker] Config saved to C:\Users\Jegan . S\.jolli\jollimemory
+[2026-09-06T19:43:54.972Z] INFO  [Installer] Gemini detected — enabled Gemini session tracking
+[2026-09-06T19:43:54.977Z] INFO  [SessionTracker] Config saved to C:\Users\Jegan . S\.jolli\jollimemory
+[2026-09-06T19:43:54.977Z] INFO  [Installer] GitHub Copilot detected (CLI=true, Chat=true) — enabled session discovery
+[2026-09-06T19:43:54.978Z] INFO  [Installer] Skipping v5 migration on vscode-extension source — Extension.ts owns it with UI
+[2026-09-06T19:43:54.978Z] INFO  [Installer] Installation complete
+[2026-09-06T19:43:54.980Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-06T19:43:55.473Z] INFO  [Installer] Status: enabled=false, claude=false, git=false, geminiHook=false, hermesHook=false, worktreeHooks=false, sessions=3, summaries=0, codex=true/undefined, gemini=true/undefined, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/undefined, copilotChat=true, cline=false/undefined
+[2026-09-06T19:43:55.992Z] INFO  [McpProxy] [trace=7ab06bddd213cca5068ed1bf1fec4e4c] Spawned MCP daemon (pid 24468) for D:/project/e com
+[2026-09-06T19:43:56.447Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-06T19:43:56.455Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=26876, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-06T19:43:56.457Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-06T19:43:56.490Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 23088)
+[2026-09-06T19:43:56.083Z] INFO  [Installer] Status: enabled=false, claude=true, git=false, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=3, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-06T19:43:56.572Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=3, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-06T19:43:56.586Z] WARN  [CutoverRouter] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-09-06T19:43:56.586Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-06T19:43:57.280Z] INFO  [UpdateCheck] [trace=d1d665ca845872af4ad4c22c3472b677] Spawned detached update-check refresh (PID: 19760)
+[2026-09-06T19:43:57.391Z] INFO  [SkillAutoRefresh] [trace=d1d665ca845872af4ad4c22c3472b677] Refreshed Jolli skills at D:\project\e com for version 0.99.17
+[2026-09-06T19:43:57.565Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=3, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-06T19:43:57.570Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-06T19:43:57.491Z] WARN  [CutoverRouter] [trace=d1d665ca845872af4ad4c22c3472b677] database unavailable for un-cutover repo (database file does not exist) — orphan remains authoritative
+[2026-09-06T19:43:57.491Z] INFO  [StorageFactory] [trace=d1d665ca845872af4ad4c22c3472b677] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-06T19:43:57.904Z] INFO  [McpServer] [trace=d1d665ca845872af4ad4c22c3472b677] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-06T19:43:57.910Z] INFO  [McpDaemon] [trace=d1d665ca845872af4ad4c22c3472b677] MCP daemon listening on \\.\pipe\jolli-mcp-5bbd02d51c59a3dc (cwd=D:/project/e com, version=0.99.17)
+[2026-09-06T19:43:58.000Z] INFO  [McpProxy] [trace=7ab06bddd213cca5068ed1bf1fec4e4c] Attached to MCP daemon 24468 (v0.99.17) for D:/project/e com
+[2026-09-06T19:43:58.001Z] INFO  [McpServer] [trace=d1d665ca845872af4ad4c22c3472b677] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-06T19:43:58.021Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-06T19:43:58.474Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=3, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-06T19:43:58.477Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=22892, cwd=d:\project\e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-06T19:44:00.577Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-06T19:44:01.262Z] INFO  [EnsureGlobalDaemon] [trace=1df028a31b0a541c69894b3a164ee418] spawned global daemon ensure helper (pid 30556)
+[2026-09-06T19:48:58.192Z] INFO  [McpCommand] [trace=d1d665ca845872af4ad4c22c3472b677] MCP daemon exited: idle
+[2026-09-06T20:45:29.033Z] INFO  [McpProxy] [trace=c6805e3649ebac9747ca39f4b3dfc3c8] Spawned MCP daemon (pid 11404) for D:/project/e com
+[2026-09-06T20:45:29.739Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-06T20:45:29.745Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=28116, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-06T20:45:29.747Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-06T20:45:29.773Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 2920)
+[2026-09-06T20:45:30.134Z] INFO  [StorageFactory] [trace=f02f577d3ca1b13ca17cc8263ee6b55b] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-06T20:45:30.580Z] INFO  [McpServer] [trace=f02f577d3ca1b13ca17cc8263ee6b55b] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-06T20:45:30.583Z] INFO  [McpDaemon] [trace=f02f577d3ca1b13ca17cc8263ee6b55b] MCP daemon listening on \\.\pipe\jolli-mcp-5bbd02d51c59a3dc (cwd=D:/project/e com, version=0.99.17)
+[2026-09-06T20:45:30.685Z] INFO  [McpProxy] [trace=c6805e3649ebac9747ca39f4b3dfc3c8] Attached to MCP daemon 11404 (v0.99.17) for D:/project/e com
+[2026-09-06T20:45:30.688Z] INFO  [McpServer] [trace=f02f577d3ca1b13ca17cc8263ee6b55b] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-06T20:45:30.707Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-06T20:45:32.051Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:06:51.476Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"d:\\project\\e com","extensionPath":"c:\\Users\\Jegan . S\\.antigravity-ide\\extensions\\jolli.jollimemory-vscode-0.99.17-universal"}
+[2026-09-07T04:06:52.966Z] INFO  [initialLoad] Loading all panels
+[2026-09-07T04:06:53.266Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=12840, cwd=d:\project\e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:06:53.293Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:06:53.293Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:06:53.293Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:06:53.293Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-09-07T04:06:54.517Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T04:06:54.900Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:06:54.901Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:06:55.301Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-09-07T04:06:55.542Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T04:06:55.813Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T04:06:57.104Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T04:06:58.297Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-09-07T04:06:58.297Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-09-07T04:06:59.959Z] INFO  [McpProxy] [trace=3541b3087ebf520f05bce6d539873b40] Spawned MCP daemon (pid 32524) for D:/project/e com
+[2026-09-07T04:07:00.027Z] INFO  [McpProxy] [trace=b2ecdfb5390105981003247af8522db8] Spawned MCP daemon (pid 17420) for D:/project/e com
+[2026-09-07T04:07:01.968Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T04:07:02.123Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=14244, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:07:02.126Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T04:07:02.146Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 14140)
+[2026-09-07T04:07:02.132Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T04:07:02.203Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=12376, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:07:02.204Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T04:07:02.221Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 23044)
+[2026-09-07T04:07:06.493Z] INFO  [McpProxy] [trace=33a0cf35032b00d41f10a2b51c4279d9] Spawned MCP daemon (pid 2916) for D:/project/e com
+[2026-09-07T04:07:06.933Z] INFO  [McpProxy] [trace=19e67a11e75f51b40b150ae94de857bc] Spawned MCP daemon (pid 22444) for D:/project/e com
+[2026-09-07T04:07:08.875Z] INFO  [StorageFactory] [trace=7e400d37fc318c7c6e17327483443703] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-07T04:07:11.251Z] INFO  [McpServer] [trace=7e400d37fc318c7c6e17327483443703] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:07:11.254Z] INFO  [McpDaemon] [trace=7e400d37fc318c7c6e17327483443703] MCP daemon listening on \\.\pipe\jolli-mcp-5bbd02d51c59a3dc (cwd=D:/project/e com, version=0.99.17)
+[2026-09-07T04:07:11.323Z] INFO  [McpServer] [trace=7e400d37fc318c7c6e17327483443703] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:07:11.344Z] INFO  [McpServer] [trace=7e400d37fc318c7c6e17327483443703] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:07:11.381Z] INFO  [McpServer] [trace=7e400d37fc318c7c6e17327483443703] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:07:11.390Z] INFO  [McpServer] [trace=7e400d37fc318c7c6e17327483443703] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:07:11.383Z] INFO  [McpProxy] [trace=b2ecdfb5390105981003247af8522db8] Attached to MCP daemon 32524 (v0.99.17) for D:/project/e com
+[2026-09-07T04:07:11.337Z] INFO  [McpProxy] [trace=3541b3087ebf520f05bce6d539873b40] Attached to MCP daemon 32524 (v0.99.17) for D:/project/e com
+[2026-09-07T04:07:11.319Z] INFO  [McpProxy] [trace=19e67a11e75f51b40b150ae94de857bc] Attached to MCP daemon 32524 (v0.99.17) for D:/project/e com
+[2026-09-07T04:07:11.436Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T04:07:11.375Z] INFO  [McpProxy] [trace=33a0cf35032b00d41f10a2b51c4279d9] Attached to MCP daemon 32524 (v0.99.17) for D:/project/e com
+[2026-09-07T04:07:11.458Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T04:07:11.459Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T04:07:11.463Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T04:07:08.762Z] INFO  [StorageFactory] [trace=87440ca3832239be0af8e4d634472d92] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-07T04:07:11.486Z] INFO  [McpServer] [trace=87440ca3832239be0af8e4d634472d92] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:07:11.488Z] WARN  [McpDaemon] [trace=87440ca3832239be0af8e4d634472d92] listen(\\.\pipe\jolli-mcp-5bbd02d51c59a3dc) failed: EADDRINUSE
+[2026-09-07T04:07:11.489Z] INFO  [McpCommand] [trace=87440ca3832239be0af8e4d634472d92] MCP daemon exited: address-in-use
+[2026-09-07T04:07:11.568Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T04:07:11.590Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=16664, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:07:11.592Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T04:07:11.609Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 2616)
+[2026-09-07T04:07:11.639Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T04:07:11.704Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=2100, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:07:11.706Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T04:07:11.747Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 6268)
+[2026-09-07T04:07:10.868Z] INFO  [StorageFactory] [trace=798abfe20f3bc0f8560fdced5d8c732b] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-07T04:07:12.658Z] INFO  [McpServer] [trace=798abfe20f3bc0f8560fdced5d8c732b] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:07:12.660Z] WARN  [McpDaemon] [trace=798abfe20f3bc0f8560fdced5d8c732b] listen(\\.\pipe\jolli-mcp-5bbd02d51c59a3dc) failed: EADDRINUSE
+[2026-09-07T04:07:12.660Z] INFO  [McpCommand] [trace=798abfe20f3bc0f8560fdced5d8c732b] MCP daemon exited: address-in-use
+[2026-09-07T04:07:12.544Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=4, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:07:11.196Z] INFO  [StorageFactory] [trace=46dd809ea81951c473e2886e5cdeb35d] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-07T04:07:13.017Z] INFO  [McpServer] [trace=46dd809ea81951c473e2886e5cdeb35d] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:07:13.020Z] WARN  [McpDaemon] [trace=46dd809ea81951c473e2886e5cdeb35d] listen(\\.\pipe\jolli-mcp-5bbd02d51c59a3dc) failed: EADDRINUSE
+[2026-09-07T04:07:13.020Z] INFO  [McpCommand] [trace=46dd809ea81951c473e2886e5cdeb35d] MCP daemon exited: address-in-use
+[2026-09-07T04:07:12.931Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=4, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:07:15.395Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:07:16.864Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:07:27.538Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=4, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:07:27.561Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:07:30.468Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=4, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:09:58.620Z] INFO  [StopHook] Stop hook triggered (session=f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1)
+[2026-09-07T04:09:58.624Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=17192, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:09:58.624Z] INFO  [StopHook] Hook input — session_id=f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1.jsonl
+[2026-09-07T04:09:58.630Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T04:09:59.055Z] INFO  [SessionTracker] upsertSkillEntry: claude:frontend-design (new, ×1)
+[2026-09-07T04:09:59.064Z] INFO  [SessionTracker] upsertSkillEntry: claude:supabase:supabase-postgres-best-practices (new, ×1)
+[2026-09-07T04:09:59.065Z] INFO  [SkillDiscovery] Persisted 2 skill(s) from f9b8f3aa-0c98-4e44-85ae-b5812bdb2de1.jsonl
+[2026-09-07T04:09:59.282Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:09:59.283Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:09:59.283Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:09:59.283Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-09-07T04:09:59.687Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:10:00.782Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:10:00.782Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:10:00.783Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:10:00.783Z] INFO  [SkillProjection] projectActiveSkills: 2 active (2 in registry)
+[2026-09-07T04:10:00.947Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:10:02.926Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:10:30.544Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"d:\\project\\e com","extensionPath":"c:\\Users\\Jegan . S\\.antigravity-ide\\extensions\\jolli.jollimemory-vscode-0.99.17-universal"}
+[2026-09-07T04:10:30.845Z] INFO  [initialLoad] Loading all panels
+[2026-09-07T04:10:30.943Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=22732, cwd=d:\project\e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:10:31.462Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:10:31.462Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:10:31.462Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:10:31.462Z] INFO  [SkillProjection] projectActiveSkills: 2 active (2 in registry)
+[2026-09-07T04:10:31.696Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T04:10:32.019Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:10:32.019Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:10:32.362Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-09-07T04:10:32.395Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T04:10:32.679Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T04:10:32.947Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T04:10:33.289Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-09-07T04:10:33.289Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-09-07T04:10:34.130Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=6, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:10:34.177Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=6, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:10:34.179Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:10:34.691Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=6, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:10:34.691Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:10:35.220Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=6, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:12:11.117Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:12:41.178Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:15:27.436Z] INFO  [McpCommand] [trace=7e400d37fc318c7c6e17327483443703] MCP daemon exited: idle
+[2026-09-07T04:17:36.962Z] INFO  [McpProxy] [trace=63be3f95bf867c7d0908a6dffb6306aa] Spawned MCP daemon (pid 12716) for D:/project/e com
+[2026-09-07T04:17:37.390Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T04:17:37.398Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=10112, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:17:37.399Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T04:17:37.415Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 27728)
+[2026-09-07T04:17:37.937Z] INFO  [StorageFactory] [trace=3b254930886f1127f8a31ac82bb86dc7] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-07T04:17:38.269Z] INFO  [McpServer] [trace=3b254930886f1127f8a31ac82bb86dc7] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:17:38.271Z] INFO  [McpDaemon] [trace=3b254930886f1127f8a31ac82bb86dc7] MCP daemon listening on \\.\pipe\jolli-mcp-5bbd02d51c59a3dc (cwd=D:/project/e com, version=0.99.17)
+[2026-09-07T04:17:38.283Z] INFO  [McpProxy] [trace=63be3f95bf867c7d0908a6dffb6306aa] Attached to MCP daemon 12716 (v0.99.17) for D:/project/e com
+[2026-09-07T04:17:38.285Z] INFO  [McpServer] [trace=3b254930886f1127f8a31ac82bb86dc7] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T04:17:38.298Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T04:19:11.588Z] INFO  [StopHook] Stop hook triggered (session=e37dbf28-d765-46ef-a5dc-e13a9740c24c)
+[2026-09-07T04:19:11.593Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=33552, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:19:11.593Z] INFO  [StopHook] Hook input — session_id=e37dbf28-d765-46ef-a5dc-e13a9740c24c, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl
+[2026-09-07T04:19:11.610Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T04:19:12.212Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:19:12.212Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:19:12.213Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:19:12.213Z] INFO  [SkillProjection] projectActiveSkills: 2 active (2 in registry)
+[2026-09-07T04:19:12.332Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:19:13.379Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:19:14.667Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:19:22.823Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=7, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:28:29.631Z] INFO  [StopHook] Stop hook triggered (session=e37dbf28-d765-46ef-a5dc-e13a9740c24c)
+[2026-09-07T04:28:29.635Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=30296, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:28:29.635Z] INFO  [StopHook] Hook input — session_id=e37dbf28-d765-46ef-a5dc-e13a9740c24c, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl
+[2026-09-07T04:28:29.645Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T04:28:29.822Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:28:29.909Z] INFO  [SessionTracker] upsertSkillEntry: claude:supabase:supabase (new, ×1)
+[2026-09-07T04:28:29.909Z] INFO  [SkillDiscovery] Persisted 1 skill(s) from e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl
+[2026-09-07T04:28:29.823Z] INFO  [SkillProjection] projectActiveSkills: 2 active (2 in registry)
+[2026-09-07T04:28:29.823Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:28:29.826Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:28:29.826Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:28:30.704Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:28:30.705Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T04:28:30.705Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:28:30.705Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:28:30.786Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:28:32.861Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=7, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:28:41.432Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:36:29.473Z] INFO  [StopHook] Stop hook triggered (session=e37dbf28-d765-46ef-a5dc-e13a9740c24c)
+[2026-09-07T04:36:29.478Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=28612, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:36:29.478Z] INFO  [StopHook] Hook input — session_id=e37dbf28-d765-46ef-a5dc-e13a9740c24c, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl
+[2026-09-07T04:36:29.491Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T04:36:30.126Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:36:30.126Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:36:30.126Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:36:30.127Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T04:36:30.275Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:36:31.426Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:36:32.981Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:36:46.581Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=7, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:37:13.634Z] INFO  [StopHook] Stop hook triggered (session=e37dbf28-d765-46ef-a5dc-e13a9740c24c)
+[2026-09-07T04:37:13.639Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=28164, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:37:13.639Z] INFO  [StopHook] Hook input — session_id=e37dbf28-d765-46ef-a5dc-e13a9740c24c, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl
+[2026-09-07T04:37:13.649Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T04:37:14.268Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:37:14.268Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:37:14.268Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:37:14.268Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T04:37:14.319Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:37:16.006Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:37:31.254Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=7, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T04:53:21.850Z] INFO  [StopHook] Stop hook triggered (session=e37dbf28-d765-46ef-a5dc-e13a9740c24c)
+[2026-09-07T04:53:21.856Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=15932, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T04:53:21.856Z] INFO  [StopHook] Hook input — session_id=e37dbf28-d765-46ef-a5dc-e13a9740c24c, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl
+[2026-09-07T04:53:21.872Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T04:53:23.362Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T04:53:23.367Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T04:53:23.367Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T04:53:23.368Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T04:53:23.424Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T04:53:26.709Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:53:29.170Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T04:54:17.974Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=7, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T05:00:00.361Z] INFO  [StopHook] Stop hook triggered (session=e37dbf28-d765-46ef-a5dc-e13a9740c24c)
+[2026-09-07T05:00:00.365Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=25868, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T05:00:00.365Z] INFO  [StopHook] Hook input — session_id=e37dbf28-d765-46ef-a5dc-e13a9740c24c, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\e37dbf28-d765-46ef-a5dc-e13a9740c24c.jsonl
+[2026-09-07T05:00:00.384Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T05:00:01.020Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T05:00:01.020Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T05:00:01.021Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T05:00:01.022Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T05:00:01.054Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T05:00:03.372Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T05:00:15.655Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=7, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T05:07:11.011Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T05:07:12.202Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T05:24:33.644Z] INFO  [McpProxy] [trace=946c3a009e04783ba884651a02de1673] Attached to MCP daemon 12716 (v0.99.17) for D:/project/e com
+[2026-09-07T05:24:33.666Z] INFO  [McpServer] [trace=3b254930886f1127f8a31ac82bb86dc7] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T05:24:33.856Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T05:24:34.322Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T05:24:34.330Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=8920, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T05:24:34.332Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T05:24:34.349Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 32228)
+[2026-09-07T05:26:02.575Z] INFO  [StopHook] Stop hook triggered (session=9a3ebe43-d66f-4060-8469-08d387915755)
+[2026-09-07T05:26:02.578Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=30052, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T05:26:02.578Z] INFO  [StopHook] Hook input — session_id=9a3ebe43-d66f-4060-8469-08d387915755, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\9a3ebe43-d66f-4060-8469-08d387915755.jsonl
+[2026-09-07T05:26:02.592Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T05:26:03.168Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T05:26:03.169Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T05:26:03.169Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T05:26:03.169Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T05:26:03.205Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T05:26:04.005Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T05:26:05.445Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T05:26:14.568Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T05:41:04.998Z] INFO  [McpProxy] [trace=bfc342d0b719eac3a5ef03719fc30e3d] Attached to MCP daemon 12716 (v0.99.17) for D:/project/e com
+[2026-09-07T05:41:05.008Z] INFO  [McpServer] [trace=3b254930886f1127f8a31ac82bb86dc7] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T05:41:05.150Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T05:41:05.841Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T05:41:05.853Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=4628, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T05:41:05.855Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T05:41:05.871Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 25104)
+[2026-09-07T05:41:08.692Z] INFO  [McpProxy] [trace=477e73d2e83747ef12ed7893fa8eb1b5] Attached to MCP daemon 12716 (v0.99.17) for D:/project/e com
+[2026-09-07T05:41:08.695Z] INFO  [McpServer] [trace=3b254930886f1127f8a31ac82bb86dc7] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T05:41:08.792Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T05:41:09.039Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T05:41:09.047Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=33932, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T05:41:09.049Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T05:41:09.066Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 16640)
+[2026-09-07T05:46:41.705Z] INFO  [StopHook] Stop hook triggered (session=5d234b20-15a5-4ae8-92b6-2f8e9ed37868)
+[2026-09-07T05:46:41.710Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=16860, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T05:46:41.711Z] INFO  [StopHook] Hook input — session_id=5d234b20-15a5-4ae8-92b6-2f8e9ed37868, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\5d234b20-15a5-4ae8-92b6-2f8e9ed37868.jsonl
+[2026-09-07T05:46:41.720Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T05:46:41.880Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T05:46:41.881Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T05:46:41.881Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T05:46:41.881Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T05:46:41.887Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T05:46:43.160Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T05:46:43.703Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T06:07:11.029Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T06:07:13.094Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T06:50:34.806Z] INFO  [deactivate] Jolli Memory extension deactivating
+[2026-09-07T06:55:36.710Z] INFO  [McpCommand] [trace=3b254930886f1127f8a31ac82bb86dc7] MCP daemon exited: idle
+[2026-09-07T07:40:25.670Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"d:\\project\\e com","extensionPath":"c:\\Users\\Jegan . S\\.antigravity-ide\\extensions\\jolli.jollimemory-vscode-0.99.17-universal"}
+[2026-09-07T07:40:27.292Z] INFO  [initialLoad] Loading all panels
+[2026-09-07T07:40:27.714Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=3116, cwd=d:\project\e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T07:40:28.035Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T07:40:28.035Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T07:40:36.042Z] INFO  [McpProxy] [trace=f290306c09d16a053bd88f49732a61bd] Spawned MCP daemon (pid 7400) for D:/project/e com
+[2026-09-07T07:40:36.061Z] INFO  [McpProxy] [trace=75efd0c0e84445a87971ff4c151f80e1] Spawned MCP daemon (pid 23484) for D:/project/e com
+[2026-09-07T07:40:28.037Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T07:40:38.212Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T07:40:38.254Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=21760, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T07:40:38.256Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T07:40:38.273Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 2724)
+[2026-09-07T07:40:39.052Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T07:40:39.190Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=34808, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T07:40:39.192Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T07:40:39.207Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 24308)
+[2026-09-07T07:40:39.231Z] INFO  [StorageFactory] [trace=32294604f6c4741131e3ef993af420b9] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-07T07:40:41.648Z] INFO  [McpServer] [trace=32294604f6c4741131e3ef993af420b9] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T07:40:41.693Z] INFO  [McpDaemon] [trace=32294604f6c4741131e3ef993af420b9] MCP daemon listening on \\.\pipe\jolli-mcp-5bbd02d51c59a3dc (cwd=D:/project/e com, version=0.99.17)
+[2026-09-07T07:40:41.796Z] INFO  [McpProxy] [trace=f290306c09d16a053bd88f49732a61bd] Attached to MCP daemon 23484 (v0.99.17) for D:/project/e com
+[2026-09-07T07:40:41.823Z] INFO  [McpProxy] [trace=75efd0c0e84445a87971ff4c151f80e1] Attached to MCP daemon 23484 (v0.99.17) for D:/project/e com
+[2026-09-07T07:40:41.859Z] INFO  [McpServer] [trace=32294604f6c4741131e3ef993af420b9] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T07:40:42.059Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T07:40:39.879Z] INFO  [StorageFactory] [trace=831e0c4d30e1d96492a79dd8e3913254] StorageFactory.create: route=uncutover, projectPath=D:/project/e com
+[2026-09-07T07:40:42.189Z] INFO  [McpServer] [trace=831e0c4d30e1d96492a79dd8e3913254] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T07:40:42.432Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T07:40:42.260Z] WARN  [McpDaemon] [trace=831e0c4d30e1d96492a79dd8e3913254] listen(\\.\pipe\jolli-mcp-5bbd02d51c59a3dc) failed: EADDRINUSE
+[2026-09-07T07:40:42.260Z] INFO  [McpCommand] [trace=831e0c4d30e1d96492a79dd8e3913254] MCP daemon exited: address-in-use
+[2026-09-07T07:40:28.044Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T07:40:45.937Z] INFO  [McpServer] [trace=32294604f6c4741131e3ef993af420b9] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T07:40:45.933Z] INFO  [McpProxy] [trace=bf1ed187c8a9b342d9b1a664a2c7aa17] Attached to MCP daemon 23484 (v0.99.17) for D:/project/e com
+[2026-09-07T07:40:30.542Z] ERROR [initialLoad] Failed to load panels {"code":128,"killed":false,"signal":null,"cmd":"git rev-parse HEAD","stdout":"HEAD\n","stderr":"fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\n"}
+[2026-09-07T07:40:31.862Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T07:40:47.190Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T07:40:32.510Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T07:40:32.510Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T07:40:33.049Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T07:40:44.347Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T07:40:47.779Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\project\e com
+[2026-09-07T07:40:52.398Z] INFO  [McpServer] [trace=32294604f6c4741131e3ef993af420b9] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T07:40:52.395Z] INFO  [McpProxy] [trace=54fb970c00a97014d9701b0b29df41c7] Attached to MCP daemon 23484 (v0.99.17) for D:/project/e com
+[2026-09-07T07:40:53.089Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T07:40:53.116Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T07:40:53.114Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=8700, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T07:40:53.116Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T07:40:53.136Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 34548)
+[2026-09-07T07:40:51.490Z] INFO  [SchemaV5Migration] Storage backend not initialized yet — skipping schema v5 migration (no data to migrate)
+[2026-09-07T07:40:51.491Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=true migrated=0 skipped=0
+[2026-09-07T07:40:56.400Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T07:40:56.465Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=2332, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T07:40:56.467Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T07:40:56.482Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 27688)
+[2026-09-07T07:41:11.296Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T07:41:11.402Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T07:41:11.417Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T07:41:19.238Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T07:41:19.277Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T07:41:24.665Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T07:55:13.258Z] INFO  [StopHook] Stop hook triggered (session=9a3ebe43-d66f-4060-8469-08d387915755)
+[2026-09-07T07:55:13.263Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=29996, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T07:55:13.263Z] INFO  [StopHook] Hook input — session_id=9a3ebe43-d66f-4060-8469-08d387915755, transcript_path=C:\Users\Jegan . S\.claude\projects\d--project-e-com\9a3ebe43-d66f-4060-8469-08d387915755.jsonl
+[2026-09-07T07:55:13.273Z] INFO  [StopHook] Session saved successfully
+[2026-09-07T07:55:13.631Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T07:55:13.632Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T07:55:13.633Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T07:55:13.633Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T07:55:13.756Z] INFO  [Installer] Checking Jolli Memory status
+[2026-09-07T07:55:14.910Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T07:55:19.982Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=false/undefined, cursor=false/undefined, copilot=true/true, copilotChat=true, cline=false/undefined
+[2026-09-07T08:04:10.524Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-09-07T08:04:10.524Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-09-07T08:04:10.524Z] INFO  [SkillProjection] projectActiveSkills: 3 active (3 in registry)
+[2026-09-07T08:04:10.525Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-09-07T08:07:11.166Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T08:07:15.014Z] WARN  [watcher] memoryDbWatcher refresh failed: Command failed: git rev-parse HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+[2026-09-07T08:08:02.713Z] INFO  [McpProxy] [trace=64aeb0a963d38fc4544b1cdc6608c8e9] Attached to MCP daemon 23484 (v0.99.17) for D:/project/e com
+[2026-09-07T08:08:02.753Z] INFO  [McpServer] [trace=32294604f6c4741131e3ef993af420b9] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-09-07T08:08:02.891Z] INFO  [McpServer] MCP client connected: claude-code/2.1.263 (agent: claude)
+[2026-09-07T08:08:03.284Z] INFO  [SessionStartHook] SessionStartHook invoked (cwd=d:/project/e com)
+[2026-09-07T08:08:03.291Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=10416, cwd=d:/project/e com, profile=d:\project\e com\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-09-07T08:08:03.295Z] INFO  [SessionStartHook] No briefing or reminder generated (skipped or timed out)
+[2026-09-07T08:08:03.313Z] INFO  [EnsureGlobalDaemon] spawned global daemon ensure helper (pid 29684)
